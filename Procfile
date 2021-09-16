@@ -1,0 +1,1 @@
+web: guicorn weatherproject.wsgi --log-file - 
