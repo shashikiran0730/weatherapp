@@ -7,7 +7,7 @@ import requests
 import json
 
 def index(request):
-    if request.method=='POST' :
+    if request.method=='POST':
         city=request.POST['city']
         print(city)
         url=f"http://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid=497772d0b35ae08493a2f6ad5256011b"
